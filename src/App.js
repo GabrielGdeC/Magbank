@@ -9,6 +9,7 @@ import CreditCard from "./components/CreditCard";
 import AccountModal from "./components/AccountModal";
 import Institutional from "./components/Institutional";
 import Footer from "./components/Footer";
+import Faq from "./components/Faq";
 
 import Posts from "./Data/Posts";
 
@@ -23,6 +24,7 @@ function App() {
       <CardList Posts={Posts} />
       <CenteredButton>Abra sua Conta</CenteredButton>
       <Institutional />
+      <Faq />
       <Footer />
       <AccountModal show={showModal} handleClose={() => setShowModal(false)} />
     </div>
