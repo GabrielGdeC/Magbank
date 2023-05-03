@@ -15,7 +15,7 @@ const Hero = () => {
         <Row>
           <Col lg className="text-lg-end mt-5">
             <Image className="d-lg-none" src={logo} />
-            <Image className="d-none d-ld-inline-block" src={logodesktop} />
+            <Image className="d-none d-lg-inline-block" src={logodesktop} />
           </Col>
 
           <Col lg className="text-lg-start my-5">
